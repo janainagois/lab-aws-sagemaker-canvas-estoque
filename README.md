@@ -23,6 +23,8 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 -   Navegue até a pasta `datasets` deste repositório. Esta pasta contém os datasets que você poderá escolher para treinar e testar seu modelo de ML. Sinta-se à vontade para gerar/enriquecer seus próprios datasets, quanto mais você se engajar, mais relevante esse projeto será em seu portfólio.
 -   Escolha o dataset que você usará para treinar seu modelo de previsão de estoque.
 -   Faça o upload do dataset no SageMaker Canvas.
+Obs.: Eu gerei o dataset "historico_vendas" com o chatgpt utilizando a seguinte sugestão de criação:
+Atue como um cientista de dados e crie um dataset em formato CSV com no mínimo 500 registros. Gostaria que esse arquivo refletisse o histórico de vendas de produtos com as seguintes colunas: ID_PRODUTO (numérico incremental), DIA (iniciando em 31/12/2023), FLAG_PROMOCAO, QUANTIDADE_ESTOQUE. Neste sentido, garanta que haja uma diversidade interessante de produtos (pelo menos 25 Ids diferentes por dia) para um sistema de gerenciamento inteligente de estoque. Além disso, garanta que cada produto tenha uma quantidade inicial em estoque que vá descrevendo de maneira variável dia a dia (se tudo for vendido manter o estoque zerado). Na prática, usarei este dataset para treinar um modelo de machine learning.
 
 ### 2. Construir/Treinar
 
@@ -41,6 +43,8 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 -   Use o modelo treinado para fazer previsões de estoque.
 -   Exporte os resultados e analise as previsões geradas.
 -   Documente suas conclusões e qualquer insight obtido a partir das previsões.
+
+##IMPORTANTE: Este serviço da AWS é pago, mas de baixo custo. O modelo que criei agora em 2024 custou 2 dólares, no momento equivalente a 10 reais.
 
 ## 🤔 Dúvidas?
 
