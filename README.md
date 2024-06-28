@@ -44,7 +44,8 @@ Atue como um cientista de dados e crie um dataset em formato CSV com no mínimo 
 -   Exporte os resultados e analise as previsões geradas.
 -   Documente suas conclusões e qualquer insight obtido a partir das previsões.
 
-##IMPORTANTE: Este serviço da AWS é pago, mas de baixo custo. O modelo que criei agora em 2024 custou 2 dólares, no momento equivalente a 10 reais.
+## IMPORTANTE: 
+Este serviço da AWS é pago, mas de baixo custo. O modelo que criei agora em 2024 custou 2 dólares, no momento equivalente a 10 reais.
 
 ## 🤔 Dúvidas?
 
